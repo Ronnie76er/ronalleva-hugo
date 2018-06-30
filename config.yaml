@@ -1,0 +1,18 @@
+baseURL: http://example.org/
+disablePathToLower: true
+languageCode: en-us
+title: Ron Alleva
+theme: hugo-coder
+
+params:
+  author: Ron Alleva
+  info: Oh no!
+  social:
+  - name: Github
+    weight: 1
+    url: https://github.com/ronnie76er
+
+menu.main:
+- name: "Blog"
+  weight: 1
+  url: /posts/

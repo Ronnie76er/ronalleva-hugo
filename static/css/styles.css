@@ -1,0 +1,146 @@
+.sidebar {
+	width: 200px;
+	float: right;
+}
+
+.posts {
+	float: left;
+	width: 700px;
+}
+
+.posttitle {
+	font-family: 'Inconsolata', sans-serif;
+}
+
+.posttitlemainpage {
+}
+
+.blog-title-div {
+	background-color: 2799e9;
+	height: 200px;
+	font-family: 'Inconsolata', sans-serif;
+}
+
+.aboutmeheading {
+	text-decoration: underline;
+}
+
+.blog-title-string {
+	position: relative;
+	color: white;
+	font-size: 5em;
+	width: 100%;
+	height: 100%;
+}
+
+.blog-subline-string {
+}
+
+.title {
+	position: absolute;
+	margin: 0;	/*padding: 0.5em;*/
+}
+
+.top-links {
+	color: white;
+	width: 150px;
+	vertical-align: bottom;
+}
+
+.blog-title-div a {
+	color: white;
+	text-decoration: none;
+}
+
+.background-title {
+	opacity: .15;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	filter: alpha(opacity=15);
+}
+
+.foreground-title {
+	opacity: .5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+.blog-title-string #title1 {
+	left: -5px;
+}
+
+.blog-title-string #title2 {
+	left: 5px;
+}
+
+.blog-title-string #title3 {
+	top: -7px;
+}
+
+.blog-title-string #title4 {
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: auto;
+}
+
+.menuitems ul {
+	list-style-type: none;
+}
+
+.menuitems img {
+	border: 0;
+}
+
+.menuitems li {
+	text-decoration: none;
+	vertical-align: middle;
+	font-size: 8pt;
+}
+
+.footer {
+	font-size: .75em;
+}
+
+.design-by {
+	text-align: right;
+	float: right;
+}
+
+.copyright {
+	text-align: left;
+}
+
+.article-text {
+	font-family: 'Inconsolata', serif;
+	'
+}
+
+body {
+	background-color: #E2E8EC;
+	font-family: 'Inconsolata', serif;
+	font-size: 10pt;
+}
+
+.smalldate {
+	font-size: 8pt;
+}
+
+blockquote {
+	background: #c2d9e9;
+	font: italic;
+}
+
+a {
+	color: #09568d;
+}
+
+code {
+	font: bold;
+}
+
+#dsq-content .dsq-moderator .dsq-comment-header {
+	background: #e9d0ab;
+}
