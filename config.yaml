@@ -2,7 +2,7 @@ baseURL: https://ronalleva.com
 disablePathToLower: true
 languageCode: en-us
 title: ronalleva.com
-theme: hugo-coder
+theme: coder
 
 params:
   author: Ron Alleva
