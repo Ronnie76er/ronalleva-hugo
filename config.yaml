@@ -8,11 +8,15 @@ params:
   author: Ron Alleva
   info: Oh no!
   social:
-  - name: Github
+  - name: github
     weight: 1
     url: https://github.com/ronnie76er
+  - name: keybase
+    weight: 1
+    url: https://keybase.io/ronnie76er
 
-menu.main:
-- name: "Blog"
-  weight: 1
-  url: /posts/
+menu:
+  main:
+  - name: "Blog"
+    weight: 1
+    url: /posts/
