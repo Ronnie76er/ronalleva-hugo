@@ -23,3 +23,8 @@ menu:
   - name: "Blog"
     weight: 1
     url: /posts/
+
+pygmentsstyle: b2
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+
