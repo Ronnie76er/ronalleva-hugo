@@ -11,7 +11,7 @@ categories = []
 
 ## Use Health Check Grace Period
 
-You want to use ECS's `healthCheckGracePeriodSeconds`. This can be set in your `shippable.resources.yml` file, as a `dockerOption`:
+You want to use ECS's `healthCheckGracePeriodSeconds`, the amount of time before the ALB begins checking the container for health. This can be set in your `shippable.resources.yml` file, as a `dockerOption`:
 
 {{< highlight yaml >}}
 resources:
@@ -83,6 +83,10 @@ So, to give an example, let's say your ECS service has 2 containers it needs to 
 
 Shippable introduced a `stabilityDuration`, set in seconds, to address this. This is the amount of seconds it will watch that the ECS service has the prescribed number of containers before marking it successful, and bringing down the other cluster. There's more documentation on shippable's site [here](http://docs.shippable.com/deploy/deployment-method-blue-green/#validating-the-health-of-an-blue-green-deployment). 
 
-__
+This way, it will not bring down the old service, until the new service is marked as good.
+
+---
+
+_History for this post can be found at https://github.com/Ronnie76er/ronalleva-hugo/blob/master/content/posts/2018-07-02-health-check-grace-period-and-stability-duration-in-shippable.md. Please feel free to offer feedback or PRs on this post!_
 
 
