@@ -1,5 +1,4 @@
 +++ 
-draft = true
 date = 2018-07-03T06:54:42-04:00
 title = "Health Check Grace Period and Stability Duration in Shippable"
 slug = "health-check-grace-period-and-stability-duration-in-shippable" 
