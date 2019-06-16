@@ -1,0 +1,38 @@
+baseURL = "https://ronalleva.com"
+# disablePathToLower: true
+languagecode = "en-us"
+defaultcontentlanguage = "en"
+title = "ronalleva.com"
+theme = "hugo-coder"
+
+[params]
+  author = "Ron Alleva"
+  info = "A Developer"
+
+[[params.social]]
+  name = "github"
+  weight = 1
+  icon = "fab fa-github"
+  url = "https://github.com/ronnie76er"
+[[params.social]]
+  name = "keybase"
+  weight = 2
+  icon = "fab fa-keybase"
+  url = "https://keybase.io/ronnie76er"
+[[params.social]]
+  name = "linkedin"
+  weight = 3
+  icon = "fab fa-linkedin"
+  url = "https://www.linkedin.com/in/ronalleva/"
+
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url = "/posts"
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-67866440-1"
+
