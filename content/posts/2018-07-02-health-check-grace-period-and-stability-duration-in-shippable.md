@@ -55,7 +55,7 @@ This post is going to assume that you have some knowledge about services in Amaz
 
 ## Health Check Grace Period
 
-First, let's understand what exactly happens when you try to bring up docker containers in AWS. This will assume you are using ALBs and Target Groups, but the same principals should apply for ELBs as well.
+First, let's understand what exactly happens when you try to bring up docker containers in AWS. This will assume you are using ALBs and Target Groups, but the same principles should apply for ELBs as well.
 
 <img src="/images/bypost/health-check-grace-period-and-stability-duration-in-shippable/health-check-example.png" height="200">
 
