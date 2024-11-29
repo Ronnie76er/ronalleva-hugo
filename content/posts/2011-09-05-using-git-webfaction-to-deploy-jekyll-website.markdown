@@ -40,7 +40,7 @@ easy_install --always-unzip --install-dir=$HOME/lib/python --script-dir=$HOME/bi
 
 In your Webfaction control panel, setup a static web application, as shown below.  Remember the name of the application, as that folder is where you'll output your blog.
 
-<img src="/images/bypost/using-git-webfaction-to-deploy-jekyll-website/webfaction-screenshot.png" alt="If you cant see this image, you probably wont be able to use the webfaction control panel anyway and are probably already awesome at setting up an application" width="100%">
+![](/images/bypost/using-git-webfaction-to-deploy-jekyll-website/webfaction-screenshot.png)
 
 ## 4. Set up git on Webfaction and your computer
 
@@ -74,15 +74,8 @@ Well, this is great.  You're pushing all your code to your webserver.  But it's 
 
 Create a file called `~/gitwebsite/git/hooks/post-receive` and place something like the following in there:
 
-<script src="https://gist.github.com/1196446.js?file=post-receive"> </script>
+{{< gist ronnie76er 1196446 >}}
 
 The first part basically sets up the necessary variables for working.  The `GIT_WORK_TREE` variable is basically where your Jekyll files will end up. `git checkout -f` will checkout your Jekyll files into `GIT_WORK_TREE`.  Then the Jekyll command is run, using the webapp you set up previously as the output directory.  I put this in a gist, messing up the color style of my website, just so you could fork it! My kindness knows no bounds.
 
 These instructions should be able to be adapted for any web host that allows for shell access (one of the great things about [Webfaction](http://webfaction.com)).  You can find the source of my blog [at Github](https://github.com/Ronnie76er/ronalleva).  
-
-
-
-
-
-
-

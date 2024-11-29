@@ -8,6 +8,7 @@ theme = "hugo-coder"
 [params]
   author = "Ron Alleva"
   info = "A Developer"
+  colorScheme = "dark"
 
 [[params.social]]
   name = "github"

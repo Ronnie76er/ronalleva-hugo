@@ -57,7 +57,7 @@ This post is going to assume that you have some knowledge about services in Amaz
 
 First, let's understand what exactly happens when you try to bring up docker containers in AWS. This will assume you are using ALBs and Target Groups, but the same principles should apply for ELBs as well.
 
-<img src="/images/bypost/health-check-grace-period-and-stability-duration-in-shippable/health-check-example.png" height="200">
+![](/images/bypost/health-check-grace-period-and-stability-duration-in-shippable/health-check-example.png)
 
 Above is a typical configuration for a target group. What you can see from this image is that the `Unhealthy threshold` is currently set to 6 pings, with an interval of 6 seconds. 
 

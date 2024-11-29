@@ -21,8 +21,6 @@ After staring at the problem for a while, [@seantbrady](https://twitter.com/#!/s
 
 Play, however, has this set to false.  The simple solution, then, is to set this to false for jacoco also.
 
-<a id="shutup"> </a> 
-
 ##  How to make it work
 
 **UPDATE**: *We originally had the settings in a separate `build.sbt` file in the root directory to make this work.  A quick email from [Peter Hausel](https://twitter.com/#!/pk11) at Typesafe showed us how we can do it in the `Build.scala` file present in the `project` directory.*
