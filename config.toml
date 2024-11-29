@@ -1,4 +1,4 @@
-baseURL = "https://ronalleva.com"
+baseURL = "/"
 # disablePathToLower: true
 languagecode = "en-us"
 defaultcontentlanguage = "en"
