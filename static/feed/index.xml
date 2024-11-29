@@ -6,22 +6,22 @@ site-homepage: ronalleva.com
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Ron Alleva Blog</title>
- <link href="http://{{page.site-homepage}}/feed/" rel="self"/>
- <link href="http://{{page.site-homepage}}/"/>
+ <link href="/feed/" rel="self"/>
+ <link href="/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://{{page.site-homepage}}</id>
+ <id></id>
  <author>
    <name>Ron</name>
-   <email>ron@ronalleva.com</email>
+   <email></email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://{{ page.site-homepage }}{{ post.url }}"/>
+   <link href="{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://{{page.site-homepage}}{{ post.id }}</id>
-   <content type="html"><a href="http://{{page.site-homepage}}{{ post.url }}">Read more...</a></content>
+   <id>{{ post.id }}</id>
+   <content type="html"><a href="{{ post.url }}">Read more...</a></content>
  </entry>
  {% endfor %}
  
